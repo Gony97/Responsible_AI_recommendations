@@ -20,8 +20,9 @@ https://www.kaggle.com/code/eunicemok/recommendation-engine-that-combats-polariz
 
 
 ### Methods:
-Training Models to classify the political lean of news articles (left-wing/central/right-wing)
-Examine users interaction with news articles (view, like, comment, share)
+Training Models to classify the political lean of news articles (left-wing/central/right-wing) by using "All The News" dataset and classifying each article's political view based on the publisher. The data given to the model is a vectorization of the article contants using TfidfVectorizer and using Passive Aggressive Classifier to classify the data. 
+
+Using the trained model we can classify the political views of the articles in "Articles Sharing and Reading from CI&T DeskDrop" dataset and examine users interaction with news articles (view, like, comment, share) and the political views of these articles.
 
 ### Finding:
 The majority of users tend to engage primarily with news articles that align with their particular viewpoint, while a significant number of users avoid interacting all together with articles that present different perspectives.
